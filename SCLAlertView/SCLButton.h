@@ -3,7 +3,7 @@
 //  SCLAlertView
 //
 //  Created by Diogo Autilio on 9/26/14.
-//  Copyright (c) 2014-2016 AnyKey Entertainment. All rights reserved.
+//  Copyright (c) 2014 AnyKey Entertainment. All rights reserved.
 //
 
 #if defined(__has_feature) && __has_feature(modules)
@@ -66,6 +66,10 @@ typedef NS_ENUM(NSInteger, SCLActionType)
  * Set SCLButton color.
  */
 @property (nonatomic, strong) UIColor *defaultBackgroundColor;
+
+
+//Tunespeak addition
+@property (nonatomic, strong) UIColor *highlightedBackgroundColor;
 
 /** Set Target object.
  *
